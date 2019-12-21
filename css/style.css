@@ -1,3 +1,40 @@
+:root {
+  --grey-color: #626262;
+  --white-color: #ffffff;
+}
+
 body {
-  background-color: fff;
+  background-color: var(--white-color);
+  color: #212121;
+}
+
+.header {
+  background-color: var(--white-color);
+}
+
+.site-nav .link {
+  color: var(--grey-color);
+}
+
+.site-nav .link:hover .site-nav .link:focus {
+  color: #221122;
+}
+.feature-list .title {
+  color: #212121;
+}
+.feature-list .text {
+  color: #b4ad9e;
+}
+.feature-list .title {
+  color: var(--grey-color);
+}
+.feature-list .description {
+  color: var(--grey-color);
+}
+.features .button {
+  color: var(--grey-color);
+}
+
+.button:hover .button:focus {
+  color: #221122;
 }
