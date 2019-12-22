@@ -28,9 +28,16 @@ body {
   color: #03a9f4;
 }
 
-.site-nav .link:hover .site-nav .link:focus {
-  color: #221122;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #1f55c9;
 }
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+  color: #1f55c9;
+}
+
 /*features*/
 .feature-list .text {
   color: #b4ad9e;
